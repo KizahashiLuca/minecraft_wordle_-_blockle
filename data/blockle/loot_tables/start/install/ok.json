@@ -17,7 +17,8 @@
                   {"text":"OK","color":"aqua","bold":false,"italic":false}
                 ]
               ]
-            },{
+            },
+            {
               "function": "minecraft:set_nbt",
               "tag": "{HideFlags:63,Tags:[\"Blockle_Item\",\"Blockle_OK\"]}"
             }

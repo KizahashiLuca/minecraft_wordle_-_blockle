@@ -33,7 +33,7 @@ execute if entity @p[predicate=blockle:team/team_c] run loot replace entity @p[p
 #### Team D
 execute if entity @p[predicate=blockle:team/team_d] run loot replace entity @p[predicate=blockle:system/start/choose/inventory/ge_4_players] inventory.14 loot blockle:start/choose/reset_button/team_d
 #### Team of host player
-loot replace entity @p[predicate=blockle:player/host] inventory.15 loot blockle:start/choose/set_host_team
+execute as @p[predicate=blockle:player/host] run loot replace entity @s inventory.15 loot blockle:start/choose/set_host_team
 
 #### Cancel
 loot replace entity @p[predicate=blockle:player/host] inventory.20 loot blockle:start/choose/cancel
@@ -44,12 +44,12 @@ loot replace entity @p[predicate=blockle:player/host] inventory.24 loot blockle:
 
 ## Set player head
 #### No team
-item replace entity @p[predicate=blockle:team/no_team] armor.head with minecraft:air
+item replace entity @a[predicate=blockle:team/no_team] armor.head with minecraft:air
 #### Team A
-loot replace entity @p[predicate=blockle:team/team_a] armor.head loot blockle:start/choose/player_head/team_a
+loot replace entity @a[predicate=blockle:team/team_a] armor.head loot blockle:start/choose/player_head/team_a
 #### Team B
-loot replace entity @p[predicate=blockle:team/team_b] armor.head loot blockle:start/choose/player_head/team_b
+loot replace entity @a[predicate=blockle:team/team_b] armor.head loot blockle:start/choose/player_head/team_b
 #### Team C
-loot replace entity @p[predicate=blockle:team/team_c] armor.head loot blockle:start/choose/player_head/team_c
+loot replace entity @a[predicate=blockle:team/team_c] armor.head loot blockle:start/choose/player_head/team_c
 #### Team D
-loot replace entity @p[predicate=blockle:team/team_d] armor.head loot blockle:start/choose/player_head/team_d
+loot replace entity @a[predicate=blockle:team/team_d] armor.head loot blockle:start/choose/player_head/team_d

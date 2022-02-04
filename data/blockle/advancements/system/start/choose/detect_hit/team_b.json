@@ -8,7 +8,7 @@
             "type": "minecraft:player",
             "equipment": {
               "mainhand": {
-                "nbt": "{tag:{Tags:[\"Blockle_SetTeamB\"]}}"
+                "nbt": "{Tags:[\"Blockle_SetTeamB\"]}"
               }
             }
           }

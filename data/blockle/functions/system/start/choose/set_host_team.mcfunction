@@ -8,7 +8,7 @@
 ################################
 
 ## Set host team
-scoreboard players add @p[predicate=blockle:player/host] Blockle_PlNum 1
+scoreboard players add @p[predicate=blockle:player/host,scores={Blockle_PlNum=0}] Blockle_PlNum 1
 execute as @p[predicate=blockle:team/team_a] run scoreboard players add @p[predicate=blockle:player/host,scores={Blockle_PlNum=1}] Blockle_PlNum 1
 execute as @p[predicate=blockle:team/team_b] run scoreboard players add @p[predicate=blockle:player/host,scores={Blockle_PlNum=2}] Blockle_PlNum 1
 execute as @p[predicate=blockle:team/team_c] run scoreboard players add @p[predicate=blockle:player/host,scores={Blockle_PlNum=3}] Blockle_PlNum 1

@@ -8,7 +8,6 @@
 ################################
 
 ## Set team c member
-team leave @s
 team join Blockle_TeamC @s
 advancement revoke @s only blockle:system/start/choose/detect_hit/team_c
 

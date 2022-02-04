@@ -8,7 +8,6 @@
 ################################
 
 ## Set team d member
-team leave @s
 team join Blockle_TeamD @s
 advancement revoke @s only blockle:system/start/choose/detect_hit/team_d
 
