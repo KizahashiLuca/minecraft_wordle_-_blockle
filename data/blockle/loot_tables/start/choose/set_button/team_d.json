@@ -1,0 +1,51 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_concrete",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  "",
+                  {"text":"Team D","color":"green","bold":true,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  "",
+                  {"text":" ","color":"white","bold":false,"italic":false},
+                  {"text":"Hit a player, ","color":"white","bold":false,"italic":false}
+                ],
+                [
+                  "",
+                  {"text":" ","color":"white","bold":false,"italic":false},
+                  {"text":"the player join ","color":"white","bold":false,"italic":false}
+                ],
+                [
+                  "",
+                  {"text":" ","color":"white","bold":false,"italic":false},
+                  {"text":"Team D","color":"green","bold":true,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Tags:[\"Blockle_Item\",\"Blockle_SetTeamD\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

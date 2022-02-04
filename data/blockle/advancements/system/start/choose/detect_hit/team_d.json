@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "team_d": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "nbt": "{tag:{Tags:[\"Blockle_SetTeamD\"]}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["team_d"]
+  ],
+  "rewards": {
+    "function": "blockle:system/start/choose/detect_hit/team_d"
+  }
+}

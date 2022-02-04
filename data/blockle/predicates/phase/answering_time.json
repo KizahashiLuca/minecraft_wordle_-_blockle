@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "#blockle"
+    },
+    "score": "Blockle_Phase"
+  },
+  "range": {
+    "min": 20,
+    "max": 20
+  }
+}

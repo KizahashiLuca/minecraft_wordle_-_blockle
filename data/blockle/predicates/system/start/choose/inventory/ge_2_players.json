@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/host"
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "score": "Blockle_PlNum",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#blockle"
+      },
+      "scale": 1
+    },
+    "range": {
+      "min": 2,
+      "max": 4
+    }
+  }
+]

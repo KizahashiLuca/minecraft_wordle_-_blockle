@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/install"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/host"
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "score": "Blockle_AutoChos",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#blockle"
+      },
+      "scale": 1
+    },
+    "range": {
+      "min": 0,
+      "max": 0
+    }
+  }
+]

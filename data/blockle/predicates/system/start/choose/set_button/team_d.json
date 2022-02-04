@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/choose"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:system/start/choose/inventory/ge_4_players"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:5b,tag:{Tags:[\"Blockle_Item\",\"Blockle_SetTeamD\"]}}]}"
+      }
+    }
+  }
+]

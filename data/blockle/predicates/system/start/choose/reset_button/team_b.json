@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/choose"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/host"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:21b,tag:{Tags:[\"Blockle_Item\",\"Blockle_ResetTeamB\"]}}]}"
+      }
+    }
+  }
+]

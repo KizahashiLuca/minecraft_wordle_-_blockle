@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": [
+            [
+              "",
+              {"text":"Thinking Time","color":"aqua","bold":false,"italic":false}
+            ]
+          ]
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{HideFlags:63,Tags:[\"Blockle_Item\",\"Blockle_ThinkingTime\"]}"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  "",
+                  {"text":" ","color":"white","bold":false,"italic":false},
+                  {"score":{"name":"#blockle","objective":"Blockle_Time"},"color":"green","bold":true,"italic":false},
+                  {"text":" sec.","color":"green","bold":true,"italic":false},
+                  {"text":" selected","color":"white","bold":false,"italic":false}
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

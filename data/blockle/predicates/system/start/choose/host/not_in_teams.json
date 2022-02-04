@@ -1,0 +1,34 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/host"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
+          "name": "blockle:team/team_a"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "blockle:team/team_b"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "blockle:team/team_c"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "blockle:team/team_d"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "blockle:team/no_team"
+        }
+      ]
+    }
+  }
+]

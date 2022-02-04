@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/host"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:team/team_d"
+  }
+]
