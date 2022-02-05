@@ -11,6 +11,8 @@
 scoreboard players set #blockle Blockle_Phase 91
 
 ## Choose auto
+#### Default
+team join Blockle_NoTeam @a[predicate=blockle:player/player]
 #### Team A
 team join Blockle_TeamA @p[predicate=blockle:system/start/choose/inventory/ge_1_player,sort=random]
 #### Team B

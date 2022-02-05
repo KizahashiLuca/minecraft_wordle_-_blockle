@@ -18,6 +18,8 @@ fill 6 1 -10 6 8 -10 minecraft:black_concrete replace
 fill -11 1 -9 11 1 -9 minecraft:oak_stairs[facing=north,half=bottom] replace
 fill -11 8 -9 11 8 -9 minecraft:oak_stairs[facing=north,half=top] replace
 setblock 0 -1 0 minecraft:diamond_block replace
+setblock 0 0 -10 minecraft:hopper replace
+setblock 0 0 -8 minecraft:chest[facing=south,type=single]{CustomName:'{"text":"選択肢のブロックリスト"}',Lock:"BlockList"} replace
 
 ## Set answering seat - red
 setblock -9 0 -3 minecraft:red_wool replace

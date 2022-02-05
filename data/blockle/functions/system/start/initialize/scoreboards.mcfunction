@@ -28,6 +28,6 @@ scoreboard players set #blockle Blockle_Phase 0
 scoreboard players set #blockle Blockle_Time 60
 #### Number of players - 1p to 4p (default 1p)
 scoreboard players set #blockle Blockle_PlNum 1
-scoreboard players set @a Blockle_PlNum 0
+scoreboard players set @p[predicate=blockle:player/host] Blockle_PlNum 0
 #### Choose players - Auto / Manual (default Auto)
 scoreboard players set #blockle Blockle_AutoChos 1
