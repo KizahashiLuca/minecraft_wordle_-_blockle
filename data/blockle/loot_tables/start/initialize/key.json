@@ -1,0 +1,30 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  "",
+                  {"text":"BlockList's key","color":"aqua","bold":false,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Tags:[\"Blockle_Item\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

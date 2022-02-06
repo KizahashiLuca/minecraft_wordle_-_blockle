@@ -1,0 +1,69 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#blockle"
+        },
+        "score": "Blockle_RndAns",
+        "scale": 1
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#blockle"
+          },
+          "score": "Blockle_Tgt1st",
+          "scale": 1
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#blockle"
+          },
+          "score": "Blockle_Tgt1st",
+          "scale": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#blockle"
+        },
+        "score": "Blockle_RndAns",
+        "scale": 1
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#blockle"
+          },
+          "score": "Blockle_Tgt2nd",
+          "scale": 1
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#blockle"
+          },
+          "score": "Blockle_Tgt2nd",
+          "scale": 1
+        }
+      }
+    }
+  ]
+}

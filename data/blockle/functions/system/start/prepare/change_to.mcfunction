@@ -14,6 +14,28 @@ scoreboard players set #blockle Blockle_Phase 92
 clear @a
 
 ## Set block list
-execute positioned 0 0 -8 run function blockle:system/start/prepare/set_block_list
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_block_list
+
+## Set random value
+#### 1st
+function blockle:system/start/prepare/set_random_value/1st
+#### 2nd
+function blockle:system/start/prepare/set_random_value/2nd
+#### 3rd
+function blockle:system/start/prepare/set_random_value/3rd
+#### 4th
+function blockle:system/start/prepare/set_random_value/4th
+#### 5th
+function blockle:system/start/prepare/set_random_value/5th
 
 ## Set target
+#### 1st
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_target/1st
+#### 2nd
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_target/2nd
+#### 3rd
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_target/3rd
+#### 4th
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_target/4th
+#### 5th
+execute positioned 0 0 -9 run function blockle:system/start/prepare/set_target/5th
