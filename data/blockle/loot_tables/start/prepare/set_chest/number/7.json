@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  "",
+                  {"text":"7th row","color":"white","bold":false,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_banner_pattern",
+              "patterns": [
+                {
+                  "color": "black",
+                  "pattern": "stripe_right"
+                },
+                {
+                  "color": "black",
+                  "pattern": "stripe_top"
+                },
+                {
+                  "color": "white",
+                  "pattern": "border"
+                }
+              ],
+              "append": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Tags:[\"Blockle_Item\",\"Blockle_Number\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

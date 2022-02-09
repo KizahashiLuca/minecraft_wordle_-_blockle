@@ -18,6 +18,21 @@ scoreboard objectives remove Blockle_Time
 scoreboard objectives remove Blockle_PlNum
 #### Choose players
 scoreboard objectives remove Blockle_AutoChos
+#### Set target randomly
+scoreboard objectives remove Blockle_RndSeed
+scoreboard objectives remove Blockle_RndCount
+scoreboard objectives remove Blockle_RndAns
+scoreboard objectives remove Blockle_RndModdr
+scoreboard objectives remove Blockle_RndMulti
+scoreboard objectives remove Blockle_TgtRoot
+scoreboard objectives remove Blockle_Tgt1st
+scoreboard objectives remove Blockle_Tgt2nd
+scoreboard objectives remove Blockle_Tgt3rd
+scoreboard objectives remove Blockle_Tgt4th
+scoreboard objectives remove Blockle_Tgt5th
+#### Set enderchest
+scoreboard objectives remove Blockle_Pages
+scoreboard objectives remove Blockle_Rows
 
 ## Reset scoreboards
 scoreboard players reset #blockle

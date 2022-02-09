@@ -20,7 +20,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:63,Tags:[\"Blockle_Item\"]}"
+              "tag": "{HideFlags:63,Unbreakable:1b,Tags:[\"Blockle_Item\"]}"
             }
           ]
         }

@@ -19,6 +19,7 @@ function blockle:system/start/initialize/tags
 function blockle:system/start/initialize/teams
 function blockle:system/start/initialize/entities
 function blockle:system/start/initialize/worlds
+function blockle:system/start/initialize/enderchest
 function blockle:system/start/initialize/bossbar
 function blockle:system/start/initialize/scoreboards
 

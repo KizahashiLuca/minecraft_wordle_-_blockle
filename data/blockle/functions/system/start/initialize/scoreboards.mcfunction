@@ -30,6 +30,9 @@ scoreboard objectives add Blockle_Tgt2nd dummy
 scoreboard objectives add Blockle_Tgt3rd dummy
 scoreboard objectives add Blockle_Tgt4th dummy
 scoreboard objectives add Blockle_Tgt5th dummy
+#### Set enderchest
+scoreboard objectives add Blockle_Pages dummy
+scoreboard objectives add Blockle_Rows dummy
 
 ## Set scoreboards
 #### Count of total players
@@ -55,4 +58,15 @@ scoreboard players set #blockle Blockle_Tgt2nd 1
 scoreboard players set #blockle Blockle_Tgt3rd 2
 scoreboard players set #blockle Blockle_Tgt4th 3
 scoreboard players set #blockle Blockle_Tgt5th 4
+scoreboard players set @a Blockle_Tgt1st 100
+scoreboard players set @a Blockle_Tgt2nd 100
+scoreboard players set @a Blockle_Tgt3rd 100
+scoreboard players set @a Blockle_Tgt4th 100
+scoreboard players set @a Blockle_Tgt5th 100
+#### Set enderchest
+scoreboard players set #blockle Blockle_Rows 1
+scoreboard players set @a Blockle_Pages 1
+scoreboard players set @a Blockle_Rows 1
+
+## Initialize random value
 function blockle:system/start/prepare/random_generator/initialize
