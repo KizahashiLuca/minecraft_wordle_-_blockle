@@ -7,7 +7,10 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Set loot
+## Set inventory
+loot replace entity @a[predicate=blockle:player/player] hotbar.2 loot blockle:start/prepare/set_chest/backspace
+loot replace entity @a[predicate=blockle:player/player] hotbar.6 loot blockle:start/prepare/set_chest/enter
+
 item replace entity @a inventory.0 from block 0 0 -9 container.0
 item replace entity @a inventory.1 from block 0 0 -9 container.1
 item replace entity @a inventory.2 from block 0 0 -9 container.2
