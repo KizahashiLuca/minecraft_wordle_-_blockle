@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/prepare"
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#blockle"
+      },
+      "score": "Blockle_Ready",
+      "scale": 1
+    },
+    "range": {
+      "min": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#blockle"
+        },
+        "score": "Blockle_PlNum",
+        "scale": 1
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#blockle"
+        },
+        "score": "Blockle_PlNum",
+        "scale": 1
+      }
+    }
+  }
+]

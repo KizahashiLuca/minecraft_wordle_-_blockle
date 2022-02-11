@@ -40,11 +40,11 @@ function blockle:system/start/prepare/set_target/4th
 #### 5th
 function blockle:system/start/prepare/set_target/5th
 
-## Set inventory
-function blockle:system/start/prepare/set_inventory
-
 ## Set chest
 function blockle:system/start/prepare/set_chest/main
 
-## Set enderchest
-function blockle:system/start/prepare/set_enderchest/main
+## Set inventory
+function blockle:system/start/prepare/set_inventory
+
+## Send messages
+function blockle:system/start/prepare/send_messages

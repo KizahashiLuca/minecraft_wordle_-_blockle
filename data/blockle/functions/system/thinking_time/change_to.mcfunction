@@ -7,5 +7,11 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
+## Change phase
+scoreboard players set #blockle Blockle_Phase 10
+
 ## Set inventory
-loot replace entity @a[predicate=blockle:player/player] inventory.13 loot blockle:start/prepare/ready
+function blockle:system/thinking_time/set_inventory
+
+## Set enderchest
+function blockle:system/thinking_time/set_enderchest/main

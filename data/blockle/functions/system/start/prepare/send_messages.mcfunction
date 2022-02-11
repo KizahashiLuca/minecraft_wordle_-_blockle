@@ -7,5 +7,6 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Set inventory
-loot replace entity @a[predicate=blockle:player/player] inventory.13 loot blockle:start/prepare/ready
+## Send titles
+title @a times 5 80 15
+title @a title ["",{"text":"Are you ready?","color":"green","bold":true}]

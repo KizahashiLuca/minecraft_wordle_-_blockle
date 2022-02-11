@@ -33,6 +33,8 @@ scoreboard objectives remove Blockle_Tgt5th
 #### Set enderchest
 scoreboard objectives remove Blockle_Pages
 scoreboard objectives remove Blockle_Rows
+#### Set OK
+scoreboard objectives remove Blockle_Ready
 
 ## Reset scoreboards
 scoreboard players reset #blockle

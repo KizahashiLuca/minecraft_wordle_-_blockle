@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  "",
+                  {"text":"Are you ready ?","color":"yellow","bold":false,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  "",
+                  {"text":"OK","color":"red","bold":true,"italic":false}
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Tags:[\"Blockle_Item\",\"Blockle_Ready\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
