@@ -7,8 +7,7 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Clear inventory
-clear @a
-
-## Set inventory
-loot replace entity @a[predicate=blockle:player/player] inventory.13 loot blockle:start/prepare/ready
+## Set tags
+tag @p[sort=nearest] add Blockle_Host
+tag @a[predicate=blockle:gamemode/spectator] add Blockle_Spectator
+tag @a[predicate=blockle:gamemode/not_spectator] add Blockle_Player

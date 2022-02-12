@@ -7,8 +7,17 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Clear inventory
-clear @a
+## Reset teams
+#### Red
+team remove Blockle_TeamA
+#### Blue
+team remove Blockle_TeamB
+#### Yellow
+team remove Blockle_TeamC
+#### Green
+team remove Blockle_TeamD
+#### White
+team remove Blockle_NoTeam
 
-## Set inventory
-loot replace entity @a[predicate=blockle:player/player] inventory.13 loot blockle:start/prepare/ready
+## Leave all team
+team leave @a

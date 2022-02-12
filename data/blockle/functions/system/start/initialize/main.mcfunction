@@ -8,20 +8,20 @@
 ################################
 
 ## Reset game
-function blockle:system/finish/reset_game/tags
-function blockle:system/finish/reset_game/teams
-function blockle:system/finish/reset_game/bossbar
-function blockle:system/finish/reset_game/scoreboards
+function blockle:system/finish/reset_game/reset_tags
+function blockle:system/finish/reset_game/remove_teams
+function blockle:system/finish/reset_game/remove_bossbar
+function blockle:system/finish/reset_game/remove_scoreboards
 
 ## Initialize game
-function blockle:system/start/initialize/gamerules
-function blockle:system/start/initialize/tags
-function blockle:system/start/initialize/teams
-function blockle:system/start/initialize/entities
-function blockle:system/start/initialize/worlds
-function blockle:system/start/initialize/enderchest
-function blockle:system/start/initialize/bossbar
-function blockle:system/start/initialize/scoreboards
+function blockle:system/start/initialize/set_gamerules
+function blockle:system/start/initialize/set_tags
+function blockle:system/start/initialize/set_teams
+function blockle:system/start/initialize/set_entities
+function blockle:system/start/initialize/set_worlds
+function blockle:system/start/initialize/set_enderchest
+function blockle:system/start/initialize/set_bossbar
+function blockle:system/start/initialize/set_scoreboards
 
 ## Count players
 function blockle:system/common/count_players

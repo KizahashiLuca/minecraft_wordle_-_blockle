@@ -7,8 +7,6 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Clear inventory
-clear @a
-
-## Set inventory
-loot replace entity @a[predicate=blockle:player/player] inventory.13 loot blockle:start/prepare/ready
+## Set scoreboards
+#### Number of phase
+scoreboard players set #blockle Blockle_Phase 90

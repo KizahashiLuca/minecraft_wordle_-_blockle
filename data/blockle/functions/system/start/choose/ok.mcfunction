@@ -7,6 +7,9 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
+## Set bossbar
+function blockle:system/start/choose/set_bossbar
+
 ## Send messages
 function blockle:system/start/choose/send_messages
 

@@ -5,7 +5,7 @@
   },
   {
     "condition": "minecraft:reference",
-    "name": "blockle:system/start/choose/inventory/ge_1_player"
+    "name": "blockle:player/number/ge_1_player"
   },
   {
     "condition": "minecraft:inverted",

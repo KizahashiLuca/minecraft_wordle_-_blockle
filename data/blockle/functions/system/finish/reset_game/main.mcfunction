@@ -8,9 +8,9 @@
 ################################
 
 ## Reset game
-function blockle:system/finish/reset_game/gamerules
-function blockle:system/finish/reset_game/tags
-function blockle:system/finish/reset_game/teams
-function blockle:system/finish/reset_game/entities
-function blockle:system/finish/reset_game/bossbar
-function blockle:system/finish/reset_game/scoreboards
+function blockle:system/finish/reset_game/reset_gamerules
+function blockle:system/finish/reset_game/reset_tags
+function blockle:system/finish/reset_game/remove_teams
+function blockle:system/finish/reset_game/reset_entities
+function blockle:system/finish/reset_game/remove_bossbar
+function blockle:system/finish/reset_game/remove_scoreboards

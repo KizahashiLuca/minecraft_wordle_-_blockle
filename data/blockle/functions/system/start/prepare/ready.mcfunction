@@ -12,7 +12,7 @@ scoreboard players set @s Blockle_Ready 1
 scoreboard players add #blockle Blockle_Ready 1
 
 ## Send message
-tellraw @a ["",{"selector":"@s","color":"white","bold":false,"italic":false},{"text":" is ready!","color":"white","bold":false,"italic":false}]
+tellraw @a ["",{"selector":"@s","bold":false,"italic":false},{"text":" is ready!","color":"white","bold":false,"italic":false}]
 
 ## Clear inventory
 clear @s

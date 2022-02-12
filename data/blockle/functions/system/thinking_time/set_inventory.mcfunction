@@ -7,6 +7,9 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
+## Clear inventory
+clear @a
+
 ## Set inventory
 loot replace entity @a[predicate=blockle:player/player] hotbar.2 loot blockle:thinking_time/backspace
 loot replace entity @a[predicate=blockle:player/player] hotbar.6 loot blockle:thinking_time/enter

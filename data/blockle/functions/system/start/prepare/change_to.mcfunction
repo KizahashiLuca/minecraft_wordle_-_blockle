@@ -7,11 +7,9 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Change phase
-scoreboard players set #blockle Blockle_Phase 92
-
-## Clear inventory
-clear @a
+## Set phase
+function blockle:system/start/prepare/set_scorebords
+function blockle:system/start/prepare/set_inventory
 
 ## Set block list
 execute positioned 0 0 -9 run function blockle:system/start/prepare/set_block_list
@@ -42,6 +40,3 @@ function blockle:system/start/prepare/set_target/5th
 
 ## Set chest
 function blockle:system/start/prepare/set_chest/main
-
-## Set inventory
-function blockle:system/start/prepare/set_inventory
