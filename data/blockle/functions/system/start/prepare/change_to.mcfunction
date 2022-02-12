@@ -45,6 +45,3 @@ function blockle:system/start/prepare/set_chest/main
 
 ## Set inventory
 function blockle:system/start/prepare/set_inventory
-
-## Send messages
-function blockle:system/start/prepare/send_messages

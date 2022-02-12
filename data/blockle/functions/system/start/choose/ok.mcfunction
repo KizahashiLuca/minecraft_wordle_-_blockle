@@ -7,5 +7,8 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
+## Send messages
+function blockle:system/start/choose/send_messages
+
 ## Change to preparing phase
 function blockle:system/start/prepare/change_to
