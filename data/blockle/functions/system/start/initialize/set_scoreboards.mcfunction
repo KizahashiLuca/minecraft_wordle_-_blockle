@@ -16,6 +16,8 @@ scoreboard objectives add Blockle_Phase dummy
 scoreboard objectives add Blockle_Time dummy
 scoreboard objectives add Blockle_Second dummy
 scoreboard objectives add Blockle_Tick dummy
+scoreboard objectives add Blockle_BossVal dummy
+scoreboard objectives add Blockle_BossMax dummy
 #### Number of players
 scoreboard objectives add Blockle_PlNum dummy
 #### Choose players
@@ -47,6 +49,8 @@ scoreboard players set #blockle Blockle_Phase 0
 scoreboard players set #blockle Blockle_Time 60
 scoreboard players set #blockle Blockle_Second 60
 scoreboard players set #blockle Blockle_Tick 0
+scoreboard players set #blockle Blockle_BossVal 100
+scoreboard players set #blockle Blockle_BossMax 100
 #### Number of players - 1p to 4p (default 1p)
 scoreboard players set #blockle Blockle_PlNum 1
 scoreboard players set @p[predicate=blockle:player/host] Blockle_PlNum 0

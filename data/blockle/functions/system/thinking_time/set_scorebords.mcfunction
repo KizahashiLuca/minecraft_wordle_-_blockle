@@ -13,3 +13,6 @@ scoreboard players set #blockle Blockle_Phase 10
 #### Thinking time
 scoreboard players operation #blockle Blockle_Second = #blockle Blockle_Time
 scoreboard players set #blockle Blockle_Tick 0
+scoreboard players set #blockle Blockle_BossMax 20
+scoreboard players operation #blockle Blockle_BossMax *= #blockle Blockle_Second
+scoreboard players operation #blockle Blockle_BossVal = #blockle Blockle_BossMax

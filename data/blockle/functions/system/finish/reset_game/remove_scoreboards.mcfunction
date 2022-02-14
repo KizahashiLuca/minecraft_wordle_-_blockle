@@ -16,6 +16,8 @@ scoreboard objectives remove Blockle_Phase
 scoreboard objectives remove Blockle_Time
 scoreboard objectives remove Blockle_Second
 scoreboard objectives remove Blockle_Tick
+scoreboard objectives remove Blockle_BossMax
+scoreboard objectives remove Blockle_BossVal
 #### Number of players
 scoreboard objectives remove Blockle_PlNum
 #### Choose players

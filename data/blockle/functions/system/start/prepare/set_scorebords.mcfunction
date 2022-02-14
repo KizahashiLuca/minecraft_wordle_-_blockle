@@ -10,3 +10,8 @@
 ## Set scoreboards
 #### Number of phase
 scoreboard players set #blockle Blockle_Phase 92
+#### Thinking time
+scoreboard players set #blockle Blockle_Second 5
+scoreboard players set #blockle Blockle_Tick 0
+scoreboard players set #blockle Blockle_BossVal 100
+scoreboard players set #blockle Blockle_BossMax 100

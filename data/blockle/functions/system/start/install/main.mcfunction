@@ -8,8 +8,8 @@
 ################################
 
 ## Detect dropping item
-execute if entity @e[predicate=blockle:system/start/items] run function blockle:system/start/install/change_to
-kill @e[predicate=blockle:system/start/items]
+execute if entity @e[predicate=blockle:system/common/items] run function blockle:system/start/install/change_to
+kill @e[predicate=blockle:system/common/items]
 
 ## Set each settings
 #### Thinking time - 30s, 60s, 90s, 120s, 150s, 180s

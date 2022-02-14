@@ -8,8 +8,8 @@
 ################################
 
 ## Detect dropping item
-execute if entity @e[predicate=blockle:system/start/items] run function blockle:system/start/choose/change_to
-kill @e[predicate=blockle:system/start/items]
+execute if entity @e[predicate=blockle:system/common/items] run function blockle:system/start/choose/change_to
+kill @e[predicate=blockle:system/common/items]
 
 ## Set button
 #### Team of host player

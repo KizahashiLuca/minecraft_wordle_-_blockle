@@ -7,9 +7,6 @@
 ## Licensed under CC BY-SA 4.0.
 ################################
 
-## Kill entity
-kill @e[predicate=blockle:entity/not_player]
-
 ## Set gamemode
 gamemode adventure @a[predicate=blockle:player/player]
 gamemode spectator @a[predicate=!blockle:player/player]

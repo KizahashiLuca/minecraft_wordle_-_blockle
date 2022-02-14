@@ -8,8 +8,8 @@
 ################################
 
 ## Execute every tick
-execute if predicate blockle:phase/answering_time run function blockle:system/start/answering_time/main
-execute if predicate blockle:phase/thinking_time run function blockle:system/start/thinking_time/main
+execute if predicate blockle:phase/answering_time run function blockle:system/answering_time/main
+execute if predicate blockle:phase/thinking_time run function blockle:system/thinking_time/main
 
 execute if predicate blockle:phase/prepare run function blockle:system/start/prepare/main
 execute if predicate blockle:phase/choose run function blockle:system/start/choose/main
