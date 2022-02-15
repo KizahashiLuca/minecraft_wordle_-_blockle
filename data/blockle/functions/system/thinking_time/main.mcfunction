@@ -16,6 +16,9 @@ function blockle:system/common/time/tick
 ## Detect slot
 execute as @a[predicate=blockle:system/thinking_time/detect_slot] run function blockle:system/thinking_time/detect_slot
 
+## Detect slot
+execute as @a[predicate=blockle:system/thinking_time/detect_enderchest] run function blockle:system/thinking_time/detect_slot
+
 ## Detect backspace
 execute as @a[predicate=blockle:system/thinking_time/detect_backspace] run function blockle:system/thinking_time/detect_backspace
 

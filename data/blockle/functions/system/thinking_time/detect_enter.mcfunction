@@ -10,7 +10,7 @@
 ## Send messages 
 tellraw @s[predicate=blockle:system/thinking_time/not_ready] ["",{"text":"Not enough blocks","color":"white","bold":false,"italic":false}] 
 tellraw @s[predicate=blockle:system/thinking_time/enter] ["",{"text":"You've already answered","color":"white","bold":false,"italic":false}]
-execute as @s[predicate=blockle:system/thinking_time/ready] run tellraw @a ["",{"selector":"@s","bold":false,"italic":false},{"text":" is ready!","color":"white","bold":false,"italic":false}]
+execute as @s[predicate=blockle:system/thinking_time/ready] run tellraw @a ["",{"selector":"@s","bold":false,"italic":false},{"text":" answered!","color":"white","bold":false,"italic":false}]
 
 ## Set scoreboard
 scoreboard players add @s[predicate=blockle:system/thinking_time/ready] Blockle_Ready 1 
