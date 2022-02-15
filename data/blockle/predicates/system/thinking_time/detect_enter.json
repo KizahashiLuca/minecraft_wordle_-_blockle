@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/thinking_time"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/player"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:6b,tag:{Tags:[\"Blockle_Item\",\"Blockle_Enter\"]}}]}"
+      }
+    }
+  }
+]

@@ -13,8 +13,14 @@ kill @e[predicate=blockle:system/common/items]
 ## Time system
 function blockle:system/common/time/tick
 
-## Detect
+## Detect slot
 execute as @a[predicate=blockle:system/thinking_time/detect_slot] run function blockle:system/thinking_time/detect_slot
+
+## Detect backspace
+execute as @a[predicate=blockle:system/thinking_time/detect_backspace] run function blockle:system/thinking_time/detect_backspace
+
+## Detect enter
+execute as @a[predicate=blockle:system/thinking_time/detect_enter] run function blockle:system/thinking_time/detect_enter
 
 ## Zero sec and zero tick
 execute if predicate blockle:system/common/time/zero run function blockle:system/answering_time/change_to
