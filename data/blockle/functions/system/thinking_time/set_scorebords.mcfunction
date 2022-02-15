@@ -16,3 +16,6 @@ scoreboard players set #blockle Blockle_Tick 0
 scoreboard players set #blockle Blockle_BossMax 20
 scoreboard players operation #blockle Blockle_BossMax *= #blockle Blockle_Second
 scoreboard players operation #blockle Blockle_BossVal = #blockle Blockle_BossMax
+#### Set OK
+scoreboard players set @a Blockle_Ready 0
+scoreboard players add #blockle Blockle_Ready 0

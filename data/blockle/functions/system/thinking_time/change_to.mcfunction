@@ -11,7 +11,7 @@
 function blockle:system/thinking_time/set_entities
 function blockle:system/thinking_time/set_scorebords
 function blockle:system/thinking_time/set_bossbar
-function blockle:system/thinking_time/set_inventory
+execute as @a[predicate=blockle:player/player] run function blockle:system/thinking_time/set_inventory
 
 ## Set enderchest
 function blockle:system/thinking_time/set_enderchest/main

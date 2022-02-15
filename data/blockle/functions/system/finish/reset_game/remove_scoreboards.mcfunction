@@ -34,6 +34,7 @@ scoreboard objectives remove Blockle_Tgt2nd
 scoreboard objectives remove Blockle_Tgt3rd
 scoreboard objectives remove Blockle_Tgt4th
 scoreboard objectives remove Blockle_Tgt5th
+scoreboard objectives remove Blockle_Tmp
 #### Set enderchest
 scoreboard objectives remove Blockle_Pages
 scoreboard objectives remove Blockle_Rows

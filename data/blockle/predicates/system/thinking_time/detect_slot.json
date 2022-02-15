@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:phase/thinking_time"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "blockle:player/player"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:9b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:10b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:11b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:12b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:13b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:14b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:15b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:16b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:17b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:18b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:19b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:20b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:21b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:22b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:23b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:24b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:25b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:26b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:27b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:28b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:29b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:30b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:31b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:32b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:33b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:34b,tag:{Tags:[\"Blockle_Item\"]}},{Slot:35b,tag:{Tags:[\"Blockle_Item\"]}}]}"
+      }
+    }
+  }
+]

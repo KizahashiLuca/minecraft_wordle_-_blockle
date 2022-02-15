@@ -34,6 +34,7 @@ scoreboard objectives add Blockle_Tgt2nd dummy
 scoreboard objectives add Blockle_Tgt3rd dummy
 scoreboard objectives add Blockle_Tgt4th dummy
 scoreboard objectives add Blockle_Tgt5th dummy
+scoreboard objectives add Blockle_Tmp dummy
 #### Set enderchest
 scoreboard objectives add Blockle_Pages dummy
 scoreboard objectives add Blockle_Rows dummy
@@ -73,6 +74,7 @@ scoreboard players set @a Blockle_Tgt2nd 100
 scoreboard players set @a Blockle_Tgt3rd 100
 scoreboard players set @a Blockle_Tgt4th 100
 scoreboard players set @a Blockle_Tgt5th 100
+scoreboard players set @a Blockle_Tmp 100
 #### Set enderchest
 scoreboard players set #blockle Blockle_Rows 1
 scoreboard players set @a Blockle_Pages 1
